@@ -72,5 +72,8 @@ footer div {
   margin: 0 0 1rem;
 }
 footer p {
-  margin: 1.5rem 10vw;
+  margin: 2rem 10vw;
+}
+small {
+  font-size: 1.5rem;
 }
