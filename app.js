@@ -1,4 +1,4 @@
-const inputTxt = document.querySelector("#input-text");
+let inputTxt = document.querySelector("#input-text");
 const translateBtn = document.querySelector("#translate");
 const outputTxt = document.querySelector("#output-text");
 
@@ -10,7 +10,7 @@ function err(error) {
   alert("something wrong due to error " + error);
 }
 
-function fetchData(text) {
+function fetchData() {
   const newUrl = `${url}?text=${inputTxt.value}`;
   fetch(newUrl)
     .then((rep) => rep.json())
@@ -22,3 +22,7 @@ function fetchData(text) {
 
   inputTxt.value = "";
 }
+
+window.addEventListener("load", () => {
+  inputTxt.value = "";
+});
