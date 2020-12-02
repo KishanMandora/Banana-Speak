@@ -32,7 +32,7 @@ main {
 #input-text {
   margin: 2rem auto;
   width: 100%;
-  height: 15rem;
+  height: 12rem;
   display: block;
   border: 2px solid black;
   padding: 1rem;
@@ -55,7 +55,7 @@ p {
 #output-text {
   margin: 1.5rem 0 2rem;
   border: 2px solid #535353;
-  min-height: 10vh;
+  min-height: 13rem;
   max-height: 20vh;
   padding: 1.5rem;
   font-size: 2.2rem;
@@ -63,7 +63,7 @@ p {
 }
 footer {
   background: var(--main-color);
-  min-height: 10vh;
+  min-height: 20vh;
   text-align: center;
   padding: 2rem;
 }
@@ -72,5 +72,5 @@ footer div {
   margin: 0 0 1rem;
 }
 footer p {
-  margin: 1rem 3rem;
+  margin: 1.5rem 25rem;
 }
