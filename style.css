@@ -45,6 +45,7 @@ button {
   color: black;
   border: none;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 p {
   font-size: 2rem;
