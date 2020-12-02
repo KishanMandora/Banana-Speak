@@ -10,14 +10,15 @@ html {
   --main-color: #f4c430;
 }
 body {
-  min-height: 100vh;
   font-family: "Yanone Kaffeesatz", sans-serif;
+  max-height: 100vh;
 }
 nav {
   background-color: var(--main-color);
   padding: 1.5rem 1rem;
   font-family: "Oswald", sans-serif;
   margin-bottom: 2rem;
+  min-height: 10vh;
 }
 h1 {
   text-align: center;
@@ -59,4 +60,17 @@ p {
   padding: 1.5rem;
   font-size: 2.2rem;
   overflow: scroll;
+}
+footer {
+  background: var(--main-color);
+  min-height: 10vh;
+  text-align: center;
+  padding: 2rem;
+}
+footer div {
+  font-size: 2.2rem;
+  margin: 0 0 1rem;
+}
+footer p {
+  margin: 1rem 3rem;
 }
