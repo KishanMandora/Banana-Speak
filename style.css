@@ -26,6 +26,7 @@ h1 {
   font-style: italic;
 }
 main {
+  min-height: 70vh;
   margin: auto;
   width: 80%;
 }
@@ -47,13 +48,14 @@ button {
   border: none;
   margin-bottom: 1rem;
   cursor: pointer;
+  font-size: 1.8rem;
 }
 p {
   font-size: 2rem;
   font-weight: 500;
 }
 #output-text {
-  margin: 1.5rem 0 2rem;
+  margin: 1.5rem 0 0;
   border: 2px solid #535353;
   min-height: 13rem;
   max-height: 20vh;
@@ -63,16 +65,15 @@ p {
 }
 footer {
   background: var(--main-color);
-  min-height: 20vh;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 footer div {
   font-size: 2.2rem;
   margin: 0 0 1rem;
 }
 footer p {
-  margin: 2rem 10vw;
+  margin: 1rem 10vw;
 }
 small {
   font-size: 1.5rem;

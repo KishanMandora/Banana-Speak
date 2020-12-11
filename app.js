@@ -13,7 +13,9 @@ function err(error) {
 function fetchData() {
   const newUrl = `${url}?text=${inputTxt.value}`;
   fetch(newUrl)
-    .then((rep) => rep.json())
+    .then((rep) => {
+      console.log(rep.json);
+    })
     .then((json) => {
       outputTxt.innerText = json.contents.translated;
       console.log(json);
